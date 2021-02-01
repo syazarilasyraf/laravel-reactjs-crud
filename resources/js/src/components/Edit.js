@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory, useParams } from "react-router-dom";
 import AppContainer from './AppContainer';
-import api  from '../api';
+import api from '../api';
 
 const Edit = () => {
     const { id } = useParams();

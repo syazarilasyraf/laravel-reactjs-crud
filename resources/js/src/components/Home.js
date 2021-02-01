@@ -49,8 +49,8 @@ const Home = () => {
                     >
                       EDIT
                     </Link>
-                    <button 
-                        type="button" 
+                    <button
+                        type="button"
                         className="btn btn-danger"
                         onClick={() => {
                             api.deletePost(post.id)
